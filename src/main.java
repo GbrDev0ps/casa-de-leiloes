@@ -1,3 +1,6 @@
-public static void main(String[] args) {
-    new cadastroVIEW().setVisible(true);
+
+public class main {
+    public static void main(String[] args) {
+        javax.swing.SwingUtilities.invokeLater(() -> new cadastroVIEW().setVisible(true));
+    }
 }
